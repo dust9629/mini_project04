@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>input error motion</title>
+    <link rel="stylesheet" href="/mini_project04/css/style.css">
 </head>
 <body>
-    
+    <form id="myForm">
+        <div id="errorMessage" class="error-message">Invalid Input</div>
+        <input type="text" id="inputField" placeholder="Input Some Text" required />
+        <button type="button" onclick="validateInput()">Submit</button>
+    </form>
+    <script src="/mini_project04/js/script.js"></script>
 </body>
 </html>
